@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: service-registry
+
+server:
+  port: 8761  # Porta su cui avviare il Eureka Server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
