@@ -1,9 +1,9 @@
 spring:
   application:
-    name: service-registry
+    name: "@project.artifactId@"
 
 server:
-  port: 8761  # Porta su cui avviare il Eureka Server
+  port: 8761
 
 eureka:
   client:
