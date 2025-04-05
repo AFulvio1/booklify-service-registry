@@ -46,7 +46,7 @@ jobs:
         run: |
           git add pom.xml Dockerfile
           git commit -m "Version updated up to ${{ env.VERSION }}"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/AFulvio1/booklify-service-registry.git HEAD:master
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/AFulvio1/booklify-service-registry.git HEAD:main
 
       - name: Create Git tag
         run: |
