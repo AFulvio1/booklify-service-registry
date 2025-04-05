@@ -7,14 +7,14 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.10</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 
 	<groupId>com.afulvio.booklify</groupId>
-	<artifactId>service-registry</artifactId>
+	<artifactId>booklify-service-registry</artifactId>
 	<version>1.0.5</version>
 
-	<name>service-registry</name>
+	<name>booklify-service-registry</name>
 	<description>Servire Registry with Eureka for Booklify</description>
 	<url>https://www.booklify.org/books</url>
 	<licenses>
