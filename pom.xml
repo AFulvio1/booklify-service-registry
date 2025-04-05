@@ -12,7 +12,7 @@
 
 	<groupId>com.afulvio.booklify</groupId>
 	<artifactId>service-registry</artifactId>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 
 	<name>service-registry</name>
 	<description>Servire Registry with Eureka for Booklify</description>
